@@ -1,1 +1,1 @@
-# compareStrings
+There are plenty of sites/applications/whatever that will do this for me, but it seemed like a good thing to practice some code and build one myself. Something I do for work right now is basically just compare bodies of text; usually URLs. So why not write an app that will do it for me? Eventually I hope it'll be a form that allows me to enter two strings and will then compare them and return the problematic string with some type of signal as to what's different. Just for fun, mostly. 
