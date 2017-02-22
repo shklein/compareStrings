@@ -8,18 +8,28 @@ function compare (a, b) {
   console.log("Match!");
 
   } else {
-    var aString = a.split(" ");
-    var bString = b.split(" ");
+    var aString = [];
+    var bString = [];
+
+    for (var i = 0; i < a.length; i++) {
+      aString.push(a[i]);
+
+    }
+
+    for (var i = 0; i < b.length; i++) {
+      bString.push(b[i]);
+        }
 
     for (var i = 0; i < aString.length; i++) {
-      if (aString[i] != bString[i]) {
-        console.log(bString[i]);
+    if (aString[i] != bString[i]) {
+      console.log(bString[i]);
       }
     }
   }
-
-
 };
 
+
+
+
 compare("Samantha", "Samantha");
-compare("file:///Users/samanthaklein/Desktop/TextCompare/index.html", "file:///Users/samanthaklein/Desktop/textCompare/index.html");
+compare("I love Lyra", "I love Hannes");
